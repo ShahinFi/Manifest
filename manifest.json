@@ -1,8 +1,10 @@
-{
+[
+  {
   "url": "https://t.me/glyptonbot",
   "name": "My App",
   "iconUrl": "https://shahinfi.github.io/manifest/icon.png",
   "termsOfUseUrl": "https://shahinfi.github.io/manifest/terms.html",
   "privacyPolicyUrl": "https://shahinfi.github.io/manifest/privacy.html",
 }
+]
 
