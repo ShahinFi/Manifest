@@ -1,0 +1,13 @@
+{
+  "name": "Your App Name",
+  "description": "Description of your app",
+  "url": "https://your-app-url.com",
+  "icons": [
+    {
+      "src": "https://your-app-url.com/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "permissions": ["ton://connect", "ton://sign"]
+}
