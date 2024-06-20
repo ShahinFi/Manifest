@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        function redirect() {
+            var urlParams = new URLSearchParams(window.location.search);
+            var bridgeUrl = urlParams.get('bridge');
+            var universalLink = urlParams.get('universalLink');
+            var appLink = `tonkeeper://connect?bridge=${encodeURIComponent(bridgeUrl)}&universalLink=${encodeURIComponent(universalLink)}`;
+            window.location.href = appLink;
+        }
+        window.onload = redirect;
+    </script>
+</head>
+<body>
+    <p>Redirecting to the app...</p>
+</body>
+</html>
